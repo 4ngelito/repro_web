@@ -37,7 +37,7 @@ class Motor {
 			'defaults' => [
 				'headers' => [
 					'User-Agent' => 'aayala-ReproWeb/0.1 +http://www.actuimagen.cl',
-					'Authorization' =>'Discogs key=qmsqtekrXkvFkIpCnqdx, secret=ZwxXylkpUVJkRCHMwObKgOSmIDYWUGwS']
+					'Authorization' =>'Discogs key=, secret=']
 			]
 		]);
 		self::$client->getHttpClient()->getEmitter()->attach(new Discogs\Subscriber\ThrottleSubscriber());
